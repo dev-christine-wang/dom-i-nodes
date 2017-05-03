@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     $l('.list').append(`<li>${input}<button class='completedToDo'>Completed</button></li>`);
     $l('.userInput').htmlElements[0].value = '';
 
-    $l('.completedToDo').on('click', () =>
-      $l('.completedToDo').parent().remove()
+    $l('.completedToDo').on('click', e =>
+      $l(e.currentTarget).parent().remove()
     );
   });
 });
