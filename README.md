@@ -5,8 +5,8 @@ DOMiNodes is a lightweight JavaScript library for DOM manipulation, inspired by 
 ## API
 
 [DOM Manipulation](#dom-manipulation)  
-  * [`$l(selector)`](#l(selector))  
-  * [`$l(HTMLElement)`](#l(HTMLElement))
+  * [`$l(selector)`](#$l(selector))  
+  * [`$l(HTMLElement)`](#$l(HTMLElement))
   * [`html`](#html)  
   * [`empty`](#empty)  
   * [`append(child)`](#append(child))  
