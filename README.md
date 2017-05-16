@@ -95,4 +95,4 @@ After a XHR object is created, a callback is registered and the request is sent 
 
 ## Example Usage
 
-To demonstrate the versatility and functionality of DOMiNodes, I've built a to-do list app using the library.  To check out the app, download this [repo](https://github.com/christinewang319/dom-i-nodes#on), and open /demo/index.html in the terminal.
+To demonstrate the versatility and functionality of DOMiNodes, I built a to-do list app using the library.  To check out the app, download this [repo](https://github.com/christinewang319/dom-i-nodes#on), and open /demo/index.html in the terminal.
