@@ -1,1 +1,7 @@
+.addToDo {
+  margin: 3px;
+}
 
+.completedToDo {
+  margin: 6px;
+}
