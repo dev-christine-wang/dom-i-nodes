@@ -4,30 +4,6 @@ DOMiNodes is a lightweight JavaScript library for DOM manipulation, inspired by 
 
 ## API
 
-[DOM Manipulation](#dom-manipulation)  
-  * [`$l(selector)`](#$l(selector))  
-  * [`$l(HTMLElement)`](#$l(HTMLElement))
-  * [`DOMNodeCollection.prototype.html`](#DOMNodeCollection.prototype.html)  
-  * [`DOMNodeCollection.prototype.empty`](#DOMNodeCollection.prototype.empty)  
-  * [`DOMNodeCollection.prototype.append(child)`](#DOMNodeCollection.prototype.append(child))  
-  * [`DOMNodeCollection.prototype.attr(key, val)`](DOMNodeCollection.prototype.attr(key, val))  
-  * [`DOMNodeCollection.prototype.addClass(newClass)`](#DOMNodeCollection.prototype.addClass(newClass))  
-  * [`DOMNodeCollection.prototype.removeClass(oldClass)`](DOMNodeCollection.prototype.removeClass(oldClass))  
-
-[DOM Traversal](#dom-traversal)  
-  * [`DOMNodeCollection.prototype.children`](#DOMNodeCollection.prototype.children)  
-  * [`DOMNodeCollection.prototype.parent`](#DOMNodeCollection.prototype.parent)  
-  * [`DOMNodeCollection.prototype.find(selector)`](#DOMNodeCollection.prototype.find(selector))
-  * [`DOMNodeCollection.prototype.remove`](#DOMNodeCollection.prototype.remove)  
-
-[Event Listeners](#event-listeners)  
-  * [`DOMNodeCollection.prototype.on(eventName, cb)`](#DOMNodeCollection.prototype.on(eventName, cb))  
-  * [`DOMNodeCollection.prototype.off(eventName)`](#DOMNodeCollection.prototype.off(eventName))  
-
-[AJAX](#ajax)
-  * [`$l.extend(base, ...otherObjs)`](#lextend(base, ...otherObjs))
-  * [`$l.ajax(options)`](#lajax(options))
-
 ### DOM Manipulation
 
 #### `$l(selector)`
